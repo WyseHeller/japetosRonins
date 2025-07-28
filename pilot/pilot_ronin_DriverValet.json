@@ -1,0 +1,51 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_DriverValet",
+		"Name": "Driver",
+		"FirstName": "Diver",
+		"LastName": "Valet",
+		"Callsign": "Driver",
+		"Gender": "Male",
+		"Faction": "Comstar",
+		"Age": "28",
+		"Details": "Driver wasn't named for his career, but a boyhood love for precision instruments of speed and aerodynamics naturally led him to the world of underground street racing. Never quite developing a taste for competition, Driver began to drift into the place of driving around the drivers when they weren't behind the wheel themselves. Settling into lucrative contracts chauffeuring around the wealthy, Driver is more than just a man who can drive anything smoothly, however. The controversial nature of his clientele has forced him into more than a few openweight bouts.",
+		"Icon": "guiTxrPort_ronin_DriverValet"
+	},
+	"BaseGunnery": "1",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 1100,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_rizzo01",
+	"abilityDefNames": [
+		"TraitDefEvasiveChargeAddOne",
+		"TraitDefSprintIncrease20"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_tech",
+			"pilot_spacer",
+			"pilot_cautious",
+			"pilot_dependable",
+			"pilot_vehicle_crew",
+			"pilot_nomech_crew",
+			"name_Driver",
+			"pilot_comstar"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

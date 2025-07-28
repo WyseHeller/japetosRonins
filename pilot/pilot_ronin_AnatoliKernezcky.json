@@ -1,0 +1,48 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_AnatoliKernezcky",
+		"Name": "Anatoli",
+		"FirstName": "Anatoli",
+		"LastName": "Kernezcky",
+		"Callsign": "Tyrant",
+		"Gender": "Male",
+		"Faction": "NoFaction",
+		"Age": "20",
+		"Details": "Anatoli Kernezcky is not a weak man. The second eldest child and first born son of Alexi Kernezcky, Anatoli was destined to rule his house when his father passed and the crown rightfully fell to him. Yet in a cruel and unexpected twisted of fate, his father chose to to abdicate the thrown and name his eldest child and daughter his chosen heir and successor. Enraged, Anatoli launched a bloody coup with the backing of several prominent nobles and military officials who likewise refused to acknowledge the \"Last-Minute Queen\". Following intense civil unrest, Anatoli secured his birthright and vowed to never let it be threatened again by pretenders and weak fools. He ordered the execution of his siblings, the removal of doubtful generals, and the complete and total loyalty of the public. Complete in his goal of obtaining unquestionable and complete authority, Anatoli set forth into the wilderness of space with the intent of liberating more of humanity to bask under his benevolant rule.",
+		"Icon": "guiTxrPort_ronin_AnatoliKernezcy",
+	},
+	"BaseGunnery": "4",
+	"BonusGunnery": 0,
+	"BasePiloting": "2",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 4300,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro01_stark_chad",
+	"abilityDefNames": [
+		"TraitDefHealthAddOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_officer",
+			"pilot_command",
+			"pilot_spacer",
+			"pilot_reckless",
+			"name_Tyrant",
+			"pilot_periphery"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

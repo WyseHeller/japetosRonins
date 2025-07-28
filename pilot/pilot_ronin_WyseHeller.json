@@ -1,0 +1,58 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_WyseHeller",
+		"Name": "Wyse",
+		"FirstName": "Wyse",
+		"LastName": "Heller",
+		"Callsign": "Mentor",
+		"Gender": "Female",
+		"Faction": "Comstar",
+		"Age": "69",
+		"Details": "Born to a local constabulary of a small shantytown, Heller's childhood was troubled with the conflict of constant raids, ethnic discrimination, and an abuse. She got into scraps, got into drugs, and then got, eventually, into a lot of trouble.\nHeller would spend the rest of her childhood in prison where, ironically, the under-funded and under-staffed rehabilitation programs would successfully teach her how to read, write, and work as a prison laborer for the local telecom corporation. Emerging from the prison system as an adult, Heller applied what she had learned to make an honest living as an electrician servicing remote transmission towers. This would end abruptly when an accident left her injured without a path towards recovery.\nNow unemployed and drowning in medical debt, Heller's criminal history had not gone unnoticed by her employers. Pouncing on her financial vulnerability, an associated private contractor was quick to scoop her up as a \"troubleshooter\" in solving labor and civil disputes in exchange for resolving her debt. Given a new life with high-end limb replacements and free reign to solve problems as she saw fit, Heller's ruthless attitude would lead to her name becoming synonymous with iron-fisted brutality against workers and would-be revolutionaries.\nThough it may be argued her best days are long behind her, her successes as a brute-force instrument of corporate power have left her an immensely wealthy old woman with an unexpected proficiency in meting out violence.",
+		"Icon": "guiTxrPort_ronin_WyseHeller"
+	},
+	"BaseGunnery": "3",
+	"BonusGunnery": 0,
+	"BasePiloting": "5",
+	"BonusPiloting": 0,
+	"BaseGuts": "5",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 6600,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_bear02",
+	"abilityDefNames": [
+		"AbilityDefP5",
+		"AbilityDefGu5",
+		"TraitDefHealthAddOne",
+		"TraitDefHealthAddTwo",
+        "TraitDefOverheatAddFifteen",
+        "TraitDefOverheatAddThirty",
+		"TraitDefUnsteadySub50",
+		"TraitDefHeavyHitter"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_wealthy",
+			"pilot_tech",
+			"pilot_lostech",
+			"pilot_reckless",
+			"pilot_drunk",
+			"pilot_unstable",
+			"pilot_vehicle_crew",
+			"name_Mentor",
+			"pilot_comstar"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

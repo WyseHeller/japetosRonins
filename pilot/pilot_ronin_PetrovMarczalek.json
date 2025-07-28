@@ -1,0 +1,53 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_PetrovMarczalek",
+		"Name": "Petrov",
+		"FirstName": "Petrov",
+		"LastName": "Marczalek",
+		"Callsign": "Queenmaker",
+		"Gender": "Male",
+		"Faction": "NoFaction",
+		"Age": "42",
+		"Details": "Petrov was born into the warrior caste of his noble house with little control over how his life proceeded. Trained from a young age to serve in the army of his liege lord, Petrov grew to know only warfare. He would go on to compete in the warrior trials with such a display of martial prowess that would see him poached from initiation into the regular army and instead inducted into the ranks of the elite janissaries whom served as the personal retinue of their liege lord.\nDespite his successes in the arena and on battlefield, Petrov suffered from a distinct lack of imagination and tactical acumen. His career suffering stagnation as he grew older, the decision to promote or discharge him from service presented a dilemma for his command heirarchy. Still a loyal asset to the royal bloodline he served, Petrov was eventually retired to serve as an instructor in the practical arts of war for the children of royal blood.\nWhen his liege lord passed unexpectedly and the eldest son assumed the throne, Petrov was struck with a crisis of faith upon being ordered to cull the \"excess\" heirs by his new lord. Refusing to commit such a disgraceful act of barbarism, Petrov saw opportunity when a coup sowed chaos within the state as other warriors rebelled against the new tyrant. Limited in resources and time, Petrov chose to save the eldest daughter of his former liege and flee beyond the reaches of her murderous brother.\nLiving as exiles and unable to return home, Petrov uses his professionalism and martial skills to serve his new liege lord as a knight errant accomplishing deeds in her name.",
+		"Icon": "guiTxrPort_ronin_PetrovMarczalek"
+	},
+	"BaseGunnery": "6",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "5",
+	"BonusGuts": 0,
+	"BaseTactics": "3",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 9500,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro06_matthew",
+	"abilityDefNames": [
+		"AbilityDefG5",
+		"AbilityDefGu5",
+		"TraitDefHealthAddOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefRefireReduceOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_military",
+			"pilot_officer",
+			"pilot_command",
+			"pilot_spacer",
+			"pilot_dependable",
+			"name_Queenmaker",
+			"pilot_periphery"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

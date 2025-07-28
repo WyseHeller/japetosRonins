@@ -1,0 +1,41 @@
+{
+	"Description":
+	{
+		"Id": "TraitDefUnsteadySub50",
+		"Name": "SKIPPED LEG DAY",
+		"Details": "PASSIVE: 'Mechs piloted by this MechWarrior have their UNSTEADY threshold reduced by 50.",
+		"Icon": "uixSvgIcon_action_evasivemove"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ActivationTime": "Passive",
+	"EffectData":
+	[
+		{
+			"durationData":
+			{
+				"duration": -1
+			},
+			"targetingData":
+			{
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator"
+			},
+			"effectType": "StatisticEffect",
+			"Description":
+			{
+				"Id": "TraitDefUnsteadySub50",
+				"Name": "Reduced Stability Threshold",
+				"Details": "Stability threshold reduced by 50.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData":
+			{
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "-50.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	]
+}

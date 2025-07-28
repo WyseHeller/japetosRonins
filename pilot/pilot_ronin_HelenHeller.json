@@ -1,0 +1,54 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_HelenHeller",
+		"Name": "Heller",
+		"FirstName": "Heller",
+		"LastName": "Heller",
+		"Callsign": "Mother-of-Anarchy",
+		"Gender": "Male",
+		"Faction": "NoFaction",
+		"Age": "91",
+		"Details": "Helen Heller fell in love with the wrong person. Marrying her teenage sweetheart, the honeymoon didn't last long when her lover found herself behind bars. Forced to make her way through life on her own, Helen struggled to make ends meet. When her lover returned with a technical and a job, she thought her troubles were finally over. Their life together barely just begun, Helen's life was upended by tragedy and conflict that forced her to flee her home. Bitter from the suffering she endured at the hands of all those who dealt in the misery of others, Helen sought safety in numbers and began to fall in with the motley assortments of hopefuls, revolutionaries, pirates, and outcasts. Dedicating herself to the fight against those who would meddle in their lives Helen has become a talented warrior with a desire for sowing chaos.",
+		"Icon": "guiTxrPort_ronin_HelenHeller"
+	},
+	"BaseGunnery": "6",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "5",
+	"BonusGuts": 0,
+	"BaseTactics": "5",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 12900,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_creep01",
+	"abilityDefNames": [
+		"AbilityDefG5",
+		"AbilityDefGu5",
+		"AbilityDefT5",
+		"TraitDefEvasiveChargeAddOne",
+		"TraitDefSprintIncrease20"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_command",
+			"pilot_criminal",
+			"pilot_brave",
+			"pilot_rebellious",
+			"pilot_vehicle_crew",
+			"name_Mother-of-Anarchy",
+			"pilot_innersphere"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

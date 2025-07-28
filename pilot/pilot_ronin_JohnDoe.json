@@ -1,0 +1,51 @@
+{
+	"Description": {
+		"Id": "pilot_ronin_JohnDoe",
+		"Name": "John",
+		"FirstName": "John",
+		"LastName": "Doe",
+		"Callsign": "Jester",
+		"Gender": "NonBinary",
+		"Faction": "NoFaction",
+		"Age": "42",
+		"Details": "John Doe doesn't have a past. At least, not one that he remembers, at any rate. John's earliest memories are of the dusty, dry desert he woke up in. Days of wandering without aim, he stumbled into a podunk settlement with nothing but the clothes on his back.\nWith no history or skills, John fell in with cutthroats, ganglords, and shady mercenary outfits that asked no questions of the chattle they recruited for thugs. Whoever the person John had been in his past was a killer, as John quickly found he had all the muscle memory of a murderer that gave him an edge in the petty scraps between the footsoldiers of small-time criminals.\nJohn would soon graduate from petty backalley brawls and find his calling as a contract hitman selling his services to any who could afford him. Despite his success, John's mind would begin to stray from the path of an assassin into that of a hunter. His chosen marks became increasingly exotic, and dangerous. Now, he continues to take contracts to pay the bills, always on the lookout for the next big game to take down.",
+		"Icon": "guiTxrPort_ronin_JohnDoe"
+	},
+	"BaseGunnery": "6",
+	"BonusGunnery": 0,
+	"BasePiloting": "2",
+	"BonusPiloting": 0,
+	"BaseGuts": "2",
+	"BonusGuts": 0,
+	"BaseTactics": "6",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 11200,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_near01",
+	"abilityDefNames": [
+		"AbilityDefG5",
+		"AbilityDefT5",
+		"TraitDefCalledShotImprove",
+		"TraitDefHealthAddOne",
+        "TraitDefRefireReduceOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_assassin",
+			"pilot_cautious",
+			"pilot_vehicle_crew",
+			"name_Jester",
+			"pilot_periphery"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": false
+}

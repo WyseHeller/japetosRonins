@@ -1,0 +1,129 @@
+{
+	"Description":
+	{
+		"Id": "TraitDefHeavyHitter",
+		"Name": "HEAVY HITTER",
+		"Details": "PASSIVE: Grants a 10% damage and instability bonus to punches and physical weapon attacks.",
+		"Icon": "biceps"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ActivationTime": "Passive",
+	"EffectData":
+	[
+		{
+			"durationData":
+			{
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description":
+			{
+				"Id": "TraitDefHeavyHitterPunchDamage",
+				"Name": "Punch Damage Increased",
+				"Details": "Punch attacks deal 10% more damage.",
+				"Icon": "biceps"
+			},
+			"nature": "Buff",
+			"statisticData":
+			{
+				"statName": "CBTBE_Punch_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData":
+			{
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData":
+			{
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description":
+			{
+				"Id": "TraitDefHeavyHitterPhysicalDamage",
+				"Name": "Physical Weapon Damage Increased",
+				"Details": "Physical Weapon attacks deal 10% more damage.",
+				"Icon": "biceps"
+			},
+			"nature": "Buff",
+			"statisticData":
+			{
+				"statName": "CBTBE_Physical_Weapon_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData":
+			{
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData":
+			{
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description":
+			{
+				"Id": "TraitDefHeavyHitterPunchInstability",
+				"Name": "Punch Damage Increased",
+				"Details": "Punch attacks deal 10% more instability.",
+				"Icon": "biceps"
+			},
+			"nature": "Buff",
+			"statisticData":
+			{
+				"statName": "CBTBE_Punch_Target_Instability_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData":
+			{
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData":
+			{
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description":
+			{
+				"Id": "TraitDefHeavyHitterPhysicalInstability",
+				"Name": "Physical Weapon Damage Increased",
+				"Details": "Physical weapon attacks deal 10% more instability.",
+				"Icon": "biceps"
+			},
+			"nature": "Buff",
+			"statisticData":
+			{
+				"statName": "CBTBE_Physical_Target_Instability_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		}
+	]
+}
